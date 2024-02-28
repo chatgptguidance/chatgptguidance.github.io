@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>网络加速快速指南 一键访问ChatGPT OpenAI（下载及配置使用教程）</title>
+      <link href="/%E5%85%B6%E4%BB%96/network-accelerate/"/>
+      <url>/%E5%85%B6%E4%BB%96/network-accelerate/</url>
+      
+        <content type="html"><![CDATA[<h2 id="1-购买代理服务"><a href="#1-购买代理服务" class="headerlink" title="1. 购买代理服务 #"></a>1. 购买代理服务 <em><a href="https://doc.miyun.app/clash-for-windows/#1-%E8%B4%AD%E4%B9%B0-clash-%E4%BB%A3%E7%90%86%E6%9C%8D%E5%8A%A1">#</a></em></h2><p>代理服务需要购买哦，公用机场速度慢，不稳定，还可能会导致OpenAI账号被封禁哦！</p><p>这里推荐几个笔者常用的代理</p><p><a href="">觅云加速</a> 新用户免费体验，5G流量&#x2F;50M带宽，新用户立减9.9元</p><p><a href="https://mojie.site/#/register?code=tER0vR8N">魔戒加速</a> 流量无期限，永久使用，超低价格，14.9元130G流量</p><h2 id="2-下载安装-Clash-for-Windows"><a href="#2-下载安装-Clash-for-Windows" class="headerlink" title="2. 下载安装 Clash for Windows #"></a>2. 下载安装 Clash for Windows <em><a href="https://doc.miyun.app/clash-for-windows/#2-%E4%B8%8B%E8%BD%BD%E5%AE%89%E8%A3%85-clash-for-windows">#</a></em></h2><blockquote><p>💡💡安装版不要安装到中文目录下，解压缩版也不要重命名文件为中文目录。安装后不可用的换成解压缩版💡💡</p></blockquote><table><thead><tr><th align="left">名称</th><th align="left">安装版下载地址</th><th align="left">解压缩版下载地址</th></tr></thead><tbody><tr><td align="left">Clash for Windows</td><td align="left"><a href="https://mirror.ghproxy.com/https://github.com/cfwtf/clash_for_windows/releases/download/0.20.39/Clash.for.Windows.Setup.0.20.39.exe">⭐ 下载</a></td><td align="left"><a href="https://mirror.ghproxy.com/https://mirror.ghproxy.com/https://github.com/clash-hub/clash_for_windows_pkg/releases/download/Latest/Clash.for.Windows-0.20.39-win.7z">下载</a></td></tr></tbody></table><blockquote><p>下载后安装程序，打开 Clash for Windows。首次打开可能会出现 Windows 安全中心 防火墙提示，全部勾选，点击允许。</p></blockquote><h2 id="3-导入-Clash-for-Windows-订阅"><a href="#3-导入-Clash-for-Windows-订阅" class="headerlink" title="3. 导入 Clash for Windows 订阅 #"></a>3. 导入 Clash for Windows 订阅 <em><a href="https://doc.miyun.app/clash-for-windows/#3-%E5%AF%BC%E5%85%A5-clash-for-windows-%E8%AE%A2%E9%98%85">#</a></em></h2><h3 id="3-1-一键导入-Clash-for-Windows-订阅"><a href="#3-1-一键导入-Clash-for-Windows-订阅" class="headerlink" title="3.1 一键导入 Clash for Windows 订阅 #"></a>3.1 一键导入 Clash for Windows 订阅 <em><a href="https://doc.miyun.app/clash-for-windows/#31-%E4%B8%80%E9%94%AE%E5%AF%BC%E5%85%A5-clash-for-windows-%E8%AE%A2%E9%98%85">#</a></em></h3><ul><li>打开浏览器（推荐 Chrome）, 登录你所购买的代理</li><li>找到 <strong>订阅信息</strong> 部分，大部分代理服务都有 **一键导入 Clash 配置 **功能</li></ul><p><img src="/%E5%85%B6%E4%BB%96/network-accelerate/img1.png"></p><p><img src="/%E5%85%B6%E4%BB%96/network-accelerate/img2.png"></p><h3 id="3-2-选择-Clash-节点"><a href="#3-2-选择-Clash-节点" class="headerlink" title="3.2 选择 Clash 节点 #"></a>3.2 选择 Clash 节点 <em><a href="https://doc.miyun.app/clash-for-windows/#32-%E9%80%89%E6%8B%A9-clash-%E8%8A%82%E7%82%B9">#</a></em></h3><p>点击 <strong>Proxies</strong> → 选择 <strong>Rule</strong> → 点击 🚀 节点选择 展开节点列表 → 选择一个节点</p><p><img src="/%E5%85%B6%E4%BB%96/network-accelerate/img3.png"></p><h3 id="3-3-开启-Clash-for-Windows-代理"><a href="#3-3-开启-Clash-for-Windows-代理" class="headerlink" title="3.3 开启 Clash for Windows 代理 #"></a>3.3 开启 Clash for Windows 代理 <em><a href="https://doc.miyun.app/clash-for-windows/#33-%E5%BC%80%E5%90%AF-clash-for-windows-%E4%BB%A3%E7%90%86">#</a></em></h3><p>点击 <strong>General</strong> → 打开 <strong>SystemProxy</strong> 开关 → <strong>勾选</strong></p><p><img src="/%E5%85%B6%E4%BB%96/network-accelerate/img4.png"></p><blockquote><p>即可访问 youtube，google 等服务测试网络连通性。如果感觉网速不佳，尝试切换不同节点，或者升级订阅套餐。首次使用建议浏览器开一个隐私模式查看能否正常访问 google，隐私模式可以屏蔽插件的影响，如果您隐私模式可以，正常模式不可以，那么就是插件对代理造成了影响。停用可疑的插件即可。</p></blockquote><h2 id="开启-Tun-模式设置"><a href="#开启-Tun-模式设置" class="headerlink" title="开启 Tun 模式设置 #"></a>开启 Tun 模式设置 <em><a href="https://doc.miyun.app/clash-for-windows/#%E5%BC%80%E5%90%AF-tun-%E6%A8%A1%E5%BC%8F%E8%AE%BE%E7%BD%AE">#</a></em></h2><p>TUN 模式是 Windows 系统中的一种虚拟网络接口模式,全称为”TUNnel”模式。</p><p>TUN 模式会创建一个虚拟的点对点网络连接,这个连接会显得像一个真实的物理网络接口一样。它常用于创建 VPN(虚拟私有网络)连接。</p><p>使用 TUN 模式的主要特点包括:</p><ul><li>TUN 模式会虚拟出一个点对点的网络连接,这个连接充当一条直接的网络 cable。</li><li>TUN 接口在 Windows 中被标记为一个网络接口,并被分配一个 IP 地址。</li><li>通过 TUN 接口发送和接收的网络数据包会被封装和解封装,但不会像 TAP 接口那样被以以太网框架的形式封装。</li><li>TUN 模式通常用于路由 IP 数据包,如 OpenVPN、IPsec 等 VPN 连接就利用了 TUN 模式。</li><li>使用 TUN 接口的应用程序需要自己处理网络封装和解封装,并实现诸如 ARP 协议之类的网络功能。</li><li>TUN 接口可以与其他物理网络接口一起工作,但两个 TUN 接口之间无法直接通信。</li><li>总体来说,TUN 模式在 Windows 系统中提供一种虚拟的网络层连接,通常用于路由和封装 IP 数据包,在 VPN 和网络代理软件中广泛使用。</li></ul><p><strong>开启 TUN 模式以后，绝大多数安卓模拟器就可以使用软件设置的代理节点进行外网访问了。</strong></p><p>具体的 TUN 模式设置请查看: <a href="https://doc.clashforwindows.app/tun/" title="clash for windows 设置TUN模式实现真全局模式">clash for windows 设置 TUN 模式实现真全局模式</a></p><h2 id="⭕️-常见问题"><a href="#⭕️-常见问题" class="headerlink" title="⭕️ 常见问题 #"></a>⭕️ 常见问题 <em><a href="https://doc.miyun.app/clash-for-windows/#-%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98">#</a></em></h2><h3 id="手动添加订阅方法"><a href="#手动添加订阅方法" class="headerlink" title="手动添加订阅方法 #"></a>手动添加订阅方法 <em><a href="https://doc.miyun.app/clash-for-windows/#%E6%89%8B%E5%8A%A8%E6%B7%BB%E5%8A%A0%E8%AE%A2%E9%98%85%E6%96%B9%E6%B3%95">#</a></em></h3><p><strong>1. 手动复制订阅地址</strong>：下滑到 <strong>订阅信息</strong> 部分点击 <strong>复制 Clash 订阅链接</strong> 从该分组下任意选一个喜欢的节点标准 或者 无脑选全部 点击会自动复制。</p><p><strong>2. 配置订阅</strong> ：打开 Clash for Windows， 点击 <strong>Profiles</strong> → 粘贴复制的 clash 地址点击 <strong>download</strong>。 之后的操作同上。</p><p><img src="/%E5%85%B6%E4%BB%96/network-accelerate/img5.png"></p><p><strong>文件导入节点配置</strong> ：如果实在不能用上述方式下载到配置，可以浏览器访问订阅地址，保存返回的内容到一个 xxxx.yml 文件中，拖入 Clash for Windows</p><p><img src="/%E5%85%B6%E4%BB%96/network-accelerate/img6.gif"></p><hr><blockquote><ul><li>确认时间为北京时间，误差超过 60 秒将可能导致无法连接</li><li>请使用 ⭐Chrome、Firefox 等国外浏览器。请勿使用 360、QQ 等国产浏览器（存在网址拦截，流量监控）</li></ul></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 其他 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> ChatGPT </tag>
+            
+            <tag> OpenAI </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>ChatGPT账号免手机验证码注册教程（2024年2月更新）</title>
+      <link href="/OpenAI/openai-register/"/>
+      <url>/OpenAI/openai-register/</url>
+      
+        <content type="html"><![CDATA[<h1 id="一、注册-Proton-邮箱"><a href="#一、注册-Proton-邮箱" class="headerlink" title="一、注册 Proton 邮箱"></a>一、注册 Proton 邮箱</h1><h2 id="1-1-进入-Proton-官方网站"><a href="#1-1-进入-Proton-官方网站" class="headerlink" title="1.1 进入 Proton 官方网站"></a>1.1 进入 Proton 官方网站</h2><p><a href="https://proton.me/">https://proton.me/</a></p><p><strong>点击「Create a free account」</strong></p><p><img src="/OpenAI/openai-register/img1.png"></p><h2 id="1-2-点击左侧的免费套餐"><a href="#1-2-点击左侧的免费套餐" class="headerlink" title="1.2 点击左侧的免费套餐"></a>1.2 点击左侧的免费套餐</h2><p><img src="/OpenAI/openai-register/img2.png"></p><h2 id="1-3-填写用户名、密码，并选择邮箱后缀"><a href="#1-3-填写用户名、密码，并选择邮箱后缀" class="headerlink" title="1.3 填写用户名、密码，并选择邮箱后缀"></a>1.3 填写用户名、密码，并选择邮箱后缀</h2><p>推荐选择 proton.me</p><p><img src="/OpenAI/openai-register/img3.png"></p><h2 id="1-4-完成验证"><a href="#1-4-完成验证" class="headerlink" title="1.4 完成验证"></a>1.4 完成验证</h2><p>依次拖动验证码</p><p><img src="/OpenAI/openai-register/img4.png"></p><p>设置昵称</p><p><img src="/OpenAI/openai-register/img5.png"></p><p>这里可以跳过手机验证</p><p><img src="/OpenAI/openai-register/img6.png"></p><p>注册完后，可以去登陆邮箱，方便接收验证码：</p><p><a href="https://proton.me/">https://proton.me/</a></p><h1 id="二、注册-OpenAI-账号"><a href="#二、注册-OpenAI-账号" class="headerlink" title="二、注册 OpenAI 账号"></a>二、注册 OpenAI 账号</h1><p>首先打开 <a href="https://chat.openai.com/">OpenAI</a> 的账户注册页面，输入邮箱:</p><p><a href="https://chat.openai.com/">https://chat.openai.com/</a></p><p><img src="/OpenAI/openai-register/img7.png"></p><p>首先验证邮箱，去 Proton.me 收件箱里点击「Verify email address」即可。</p><p><img src="/OpenAI/openai-register/img8.png"></p><p>然后提供你的名和姓及生日，并点击继续</p><p><img src="/OpenAI/openai-register/img9.png"></p><p>然后选择您创建 API 还是 ChatGPT账户即可。</p><p>个人用户一般都选择 ChatGPT 账户即可：</p><p><img src="/OpenAI/openai-register/img10.png"></p><p>Openai 的用户体系分成两大类：ChatGPT 用户和API开发者用户，两个体系是相互独立的，用户名密码是一致的，但是访问入口和支付都是独立的：</p><p>ChatGPT 用户的登录入口是 <a href="https://chat.openai.com/">https://chat.openai.com</a><br>API 开发者用户的登录入口是 <a href="https://platform.openai.com/">https://platform.openai.com</a></p><p>ChatGPT 用户获取 GPT-4 的使用权限，是通过购买 GPT Plus 会员，会员的收费标准是 20 美元&#x2F;每月。</p><p>购买 GPT Plus 会员后，可以在 Chat 界面选择 GPT4 进行聊天。</p><p>购买教程在这里:</p><a href="/OpenAI/how-to-upgrade-chatgpt-plus/" title="如何购买ChatGPT？如何升级ChatGPT Plus？使用虚拟信用卡购买ChatGPT的指南">ChatGPT Plus 快速升级方法</a><p>API 开发者用户获取 GPT-4 API的使用权限，是通过升级付费帐户，升级付费帐户的教程在这里。</p><p>然后需要预充值5美元以上，才能开通GPT-4的访问权限</p><p>本文参考来源 <a href="https://www.bewildcard.com/i/QI198">bewildcard</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> OpenAI </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> ChatGPT </tag>
+            
+            <tag> OpenAI </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>如何购买ChatGPT？如何升级ChatGPT Plus？使用虚拟信用卡购买ChatGPT的指南</title>
+      <link href="/OpenAI/how-to-upgrade-chatgpt-plus/"/>
+      <url>/OpenAI/how-to-upgrade-chatgpt-plus/</url>
+      
+        <content type="html"><![CDATA[<p>随着 AIGC 的浪潮席卷而来，<strong>ChatGPT</strong> 的火爆程度日益高涨，相信大家对它的名字早已耳熟能详。它不仅功能强大，而且关键的是账户永久免费使用（请注意：ChatGPT 3.5官方账户确实是永久免费的，任何需要充值才能提问或者提问次数有限制的都是盗版山寨产品）。然而，<strong>ChatGPT</strong> 并不支持国内网络使用，限制了许多新人对其增加了解，不知道如何才能拥有账号。本文将一步一步向大家解释，<strong>ChatGPT</strong> 是什么，以及如何使用和注册账号。</p><p>2024最新教程已经不需要手机号，参考这篇文章: <a href="/OpenAI/how-to-upgrade-chatgpt-plus/" title="如何购买ChatGPT？如何升级ChatGPT Plus？使用虚拟信用卡购买ChatGPT的指南">ChatGPT账号注册，无需手机号验证码</a></p><p>如果觉得自己注册比较麻烦，或者想要升级Plus，可以接着往下看。</p><h2 id="ChatGPT-是什么"><a href="#ChatGPT-是什么" class="headerlink" title="ChatGPT 是什么"></a>ChatGPT 是什么</h2><p><strong>ChatGPT</strong> 是由 OpenAI 开发的一款大型语言模型，擅长处理各种自然语言任务，如回答问题、生成文本和进行对话等。</p><p>简而言之，<strong>ChatGPT</strong> 是最新一代的通用超强 AI，拥有庞大的知识库，能够回答形形色色的问题。无论您有什么疑问，向 <strong>ChatGPT</strong> 提问就能得到解答！</p><p><strong>ChatGPT</strong> 自2022年11月30日发布以来，仅用了五天时间，全球用户数就突破了100万大关。</p><p><strong>ChatGPT Plus</strong>提供比标准版本更快的速度、增强的性能，并且优先体验新功能。然而，在GPT4的付费订阅过程中，许多用户在使用信用卡支付时遇到障碍。</p><p>常见的问题包括OpenAI系统拒绝接受信用卡，建议改用借记卡支付。这里是一些常见的错误提示：</p><ul><li>Your credit card was declined.Try paying with a debit card instead.</li><li>您的信用卡被拒绝了。请尝试用借记卡支付。</li><li>您的金融卡已被拒绝。</li><li>您拒绝了。请尝试用签账卡支付。</li><li>我们未能验证您的支付方式。请选择另一支付方式并重试。</li></ul><h2 id="一、ChatGPT-Plus信用卡付款被拒的原因"><a href="#一、ChatGPT-Plus信用卡付款被拒的原因" class="headerlink" title="一、ChatGPT Plus信用卡付款被拒的原因"></a>一、ChatGPT Plus信用卡付款被拒的原因</h2><p>信用卡付款失败可能由以下原因导致：</p><ul><li>信用卡余额不足。</li><li>更换IP地址、支付卡或账单地址可能无法成功绑定卡片。</li><li>OpenAI可能因用户违反政策或从高风险IP地址访问服务而拒绝提供付费服务。</li></ul><h2 id="二、解决方案"><a href="#二、解决方案" class="headerlink" title="二、解决方案"></a>二、解决方案</h2><p>一种有效的解决方法是申请一张新的虚拟信用卡，这可以绕开风控系统。在某些情况下，甚至建议重新注册ChatGPT账号。如果虚拟卡支付仍存在问题，可以考虑重新注册GPT账号。</p><h2 id="三、使用虚拟信用卡进行注册的教程"><a href="#三、使用虚拟信用卡进行注册的教程" class="headerlink" title="三、使用虚拟信用卡进行注册的教程"></a>三、使用虚拟信用卡进行注册的教程</h2><h3 id="3-1-注册虚拟信用卡"><a href="#3-1-注册虚拟信用卡" class="headerlink" title="3.1 注册虚拟信用卡"></a>3.1 注册虚拟信用卡</h3><p>市面上有多个虚拟卡平台，推荐一个用户友好、操作简便的平台，全流程仅需约2分钟。这对缺乏国外信用卡的用户来说是一个完美的解决方案。注册链接：</p><p><a href="https://www.bewildcard.com/i/QI198">WildCard | 一分钟开卡，轻松订阅海外软件服务</a>。</p><p>这是一家国内公司，通过支付宝实名认证，安全无忧。</p><p>开通的是有效期1年或2年的虚拟信用卡，需要开卡费，大约 70元RMB，每天成本不到 1.5 毛钱，不光可以用于 ChatGPT，也可以用于海淘等其他用途。其他费用无，根据个人需求充值。</p><p><strong>关键是，如果没有消费成功，可以随时提现余额到支付宝</strong>。</p><h3 id="3-2-使用虚拟信用卡购买ChatGPT账号"><a href="#3-2-使用虚拟信用卡购买ChatGPT账号" class="headerlink" title="3.2 使用虚拟信用卡购买ChatGPT账号"></a>3.2 使用虚拟信用卡购买ChatGPT账号</h3><p>（PS：需要快捷注册账号的可以参考这一步，已有账号可跳过）</p><ul><li><p>开通虚拟信用卡后，点击OpenAI账户一键注册</p><p><img src="/OpenAI/how-to-upgrade-chatgpt-plus/img1.png"></p></li><li><p>点击购买账号个数</p><p><img src="/OpenAI/how-to-upgrade-chatgpt-plus/img3.png"></p></li><li><p>点击余额购买或线上购买</p><p><img src="/OpenAI/how-to-upgrade-chatgpt-plus/img2.png"></p></li><li><p>购买完成后跳转回OpenAI账户一键注册，点击注册OpenAI账户</p><p><img src="/OpenAI/how-to-upgrade-chatgpt-plus/img4.png"></p></li><li><p>输入邮箱名称及账号密码</p><p><img src="/OpenAI/how-to-upgrade-chatgpt-plus/img5.png"><br><img src="/OpenAI/how-to-upgrade-chatgpt-plus/img6.png"></p></li><li><p>耐心等待账号注册完成</p><p><img src="/OpenAI/how-to-upgrade-chatgpt-plus/img7.png"><br><img src="/OpenAI/how-to-upgrade-chatgpt-plus/img8.png"></p></li><li><p>账号注册完成后，请及时登录<a href="https://openai.com/">OpenAI</a>修改相关信息。</p></li></ul><p>如遇到支付问题，可在 <a href="https://www.bewildcard.com/i/QI198">bewildcard</a> 咨询客服。</p><p>现在，你也拥有你专属的OpenAI账户了，不仅可以可以使用ChatGPT，也可以体验其他有趣的AI产品，开始享受吧！</p><h2 id="3-3-升级-ChatGPT-Plus"><a href="#3-3-升级-ChatGPT-Plus" class="headerlink" title="3.3 升级 ChatGPT Plus"></a>3.3 升级 ChatGPT Plus</h2><ul><li><p>拥有OpenAI账户后，点击<strong>ChatGPT Plus&#x2F;Team 一键升级</strong></p><p><img src="/OpenAI/how-to-upgrade-chatgpt-plus/img9.png"></p></li><li><p><strong>确保您的账号没有使用下列邮箱</strong>，点击<strong>我的邮箱账号符合要求</strong>，选择所需的订阅类型</p><div align="center"> <img src="img10.png" width = 500 /> </div></li><li><p>跟随提示，登录<a href="https://openai.com/">OpenAI</a>，，获取付款链接并支付</p><p><img src="/OpenAI/how-to-upgrade-chatgpt-plus/img11.png"></p></li><li><p>开始享受GPT4的强大功能吧！</p></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> OpenAI </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> ChatGPT </tag>
+            
+            <tag> 虚拟信用卡 </tag>
+            
+            <tag> OpenAI </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
