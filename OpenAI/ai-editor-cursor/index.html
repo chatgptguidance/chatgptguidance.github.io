@@ -1,0 +1,234 @@
+<!DOCTYPE html><html lang="zh-cn" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>Cursor：集成 ChatGPT 的代码编辑器 智能写代码神器 保姆级教程 | ChatGPT 指南</title><meta name="author" content="ChatGPT 指南"><meta name="copyright" content="ChatGPT 指南"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="你听说过 Cursor 吗？ Cursor 是一款 AI 代码编辑器，VSCode （Visual Studio Code）开发而来，可以自动执行与编程相关的任务。使用 Cursor，不仅可以自动生成代码，还可以在聊天中提问并自动纠正错误！它的亮点是通过 GPT-4 来辅助你编程，完成 AI 智能生成代码、修改 Bug、生成测试等操作。 你可以用 Cursor 做的 3 件事一、自动代码生成和编辑">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Cursor：集成 ChatGPT 的代码编辑器 智能写代码神器 保姆级教程">
+<meta property="og:url" content="https://chatgptguidance.github.io/OpenAI/ai-editor-cursor/index.html">
+<meta property="og:site_name" content="ChatGPT 指南">
+<meta property="og:description" content="你听说过 Cursor 吗？ Cursor 是一款 AI 代码编辑器，VSCode （Visual Studio Code）开发而来，可以自动执行与编程相关的任务。使用 Cursor，不仅可以自动生成代码，还可以在聊天中提问并自动纠正错误！它的亮点是通过 GPT-4 来辅助你编程，完成 AI 智能生成代码、修改 Bug、生成测试等操作。 你可以用 Cursor 做的 3 件事一、自动代码生成和编辑">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://chatgptguidance.github.io/OpenAI/ai-editor-cursor/cover.png">
+<meta property="article:published_time" content="2024-02-29T14:48:02.000Z">
+<meta property="article:modified_time" content="2024-02-29T15:26:09.809Z">
+<meta property="article:author" content="ChatGPT 指南">
+<meta property="article:tag" content="ChatGPT">
+<meta property="article:tag" content="Code">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://chatgptguidance.github.io/OpenAI/ai-editor-cursor/cover.png"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="https://chatgptguidance.github.io/OpenAI/ai-editor-cursor/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css?v=4.13.0"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.1/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.33/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":false,"top_n_per_article":1,"unescape":false,"languages":{"hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found"}},
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: 'Copy Successful',
+    error: 'Copy Error',
+    noSupport: 'Browser Not Supported'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: 'Just now',
+    min: 'minutes ago',
+    hour: 'hours ago',
+    day: 'days ago',
+    month: 'months ago'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid@4.11.1/dist/infinitegrid.min.js',
+    buttonText: 'Load More'
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'Cursor：集成 ChatGPT 的代码编辑器 智能写代码神器 保姆级教程',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2024-02-29 23:26:09'
+}</script><script>(win=>{
+      win.saveToLocal = {
+        set: (key, value, ttl) => {
+          if (ttl === 0) return
+          const now = Date.now()
+          const expiry = now + ttl * 86400000
+          const item = {
+            value,
+            expiry
+          }
+          localStorage.setItem(key, JSON.stringify(item))
+        },
+      
+        get: key => {
+          const itemStr = localStorage.getItem(key)
+      
+          if (!itemStr) {
+            return undefined
+          }
+          const item = JSON.parse(itemStr)
+          const now = Date.now()
+      
+          if (now > item.expiry) {
+            localStorage.removeItem(key)
+            return undefined
+          }
+          return item.value
+        }
+      }
+    
+      win.getScript = (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        script.onerror = reject
+        script.onload = script.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          script.onload = script.onreadystatechange = null
+          resolve()
+        }
+
+        Object.keys(attr).forEach(key => {
+          script.setAttribute(key, attr[key])
+        })
+
+        document.head.appendChild(script)
+      })
+    
+      win.getCSS = (url, id = false) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onerror = reject
+        link.onload = link.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          link.onload = link.onreadystatechange = null
+          resolve()
+        }
+        document.head.appendChild(link)
+      })
+    
+      win.activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+        if (t === 'dark') activateDarkMode()
+        else if (t === 'light') activateLightMode()
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+      const detectApple = () => {
+        if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+          document.documentElement.classList.add('apple')
+        }
+      }
+      detectApple()
+    })(window)</script><meta name="generator" content="Hexo 7.1.1"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">4</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">4</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">2</div></a></div><hr class="custom-hr"/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('/OpenAI/ai-editor-cursor/top.jpg')"><nav id="nav"><span id="blog-info"><a href="/" title="ChatGPT 指南"><span class="site-name">ChatGPT 指南</span></a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search" href="javascript:void(0);"><i class="fas fa-search fa-fw"></i><span> Search</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">Cursor：集成 ChatGPT 的代码编辑器 智能写代码神器 保姆级教程</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">Created</span><time class="post-meta-date-created" datetime="2024-02-29T14:48:02.000Z" title="Created 2024-02-29 22:48:02">2024-02-29</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">Updated</span><time class="post-meta-date-updated" datetime="2024-02-29T15:26:09.809Z" title="Updated 2024-02-29 23:26:09">2024-02-29</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/OpenAI/">OpenAI</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="Cursor：集成 ChatGPT 的代码编辑器 智能写代码神器 保姆级教程"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">Post Views:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><p>你听说过 <strong>Cursor</strong> 吗？</p>
+<p><strong>Cursor</strong> 是一款 AI 代码编辑器，VSCode （Visual Studio Code）开发而来，可以自动执行与编程相关的任务。使用 <strong>Cursor</strong>，不仅可以自动生成代码，还可以在聊天中提问并自动纠正错误！它的亮点是通过 GPT-4 来辅助你编程，完成 AI 智能生成代码、修改 Bug、生成测试等操作。</p>
+<h1 id="你可以用-Cursor-做的-3-件事"><a href="#你可以用-Cursor-做的-3-件事" class="headerlink" title="你可以用 Cursor 做的 3 件事"></a>你可以用 Cursor 做的 3 件事</h1><h2 id="一、自动代码生成和编辑"><a href="#一、自动代码生成和编辑" class="headerlink" title="一、自动代码生成和编辑"></a>一、自动代码生成和编辑</h2><p>Cursor 集成了 <strong>ChatGPT</strong>，<strong>可以自动生成和编辑</strong>编程代码。</p>
+<p>因此 Cursor 可用于自动执行基本编码和重复性任务，使用户能够专注于更具创造性和挑战性的任务。</p>
+<h2 id="二、聊天中的问答"><a href="#二、聊天中的问答" class="headerlink" title="二、聊天中的问答"></a>二、聊天中的问答</h2><p>Cursor 具有 <strong>AI 驱动的聊天功能</strong>，可以向它提出任何问题。</p>
+<p>例如，问题包括：</p>
+<ul>
+<li>这段代码是什么意思？</li>
+<li>如何使用 Cursor 中的这个功能？</li>
+</ul>
+<p>如果你好好利用 Cursor 的聊天功能，可以减少花在其他任务上的时间，让你的编程工作更有效率。</p>
+<h2 id="三、自动调试和纠错"><a href="#三、自动调试和纠错" class="headerlink" title="三、自动调试和纠错"></a>三、自动调试和纠错</h2><p>Cursor 具有自动<strong>检测编程过程中发生的错误（错误），并提出更正建议</strong>的功能。</p>
+<p>就人类而言，长时间编写代码时，错误是不可避免的。 但是，Cursor 每次都会检测错误，因此可以大大减少不必要的更正工作。</p>
+<h1 id="Cursor-是否免费？"><a href="#Cursor-是否免费？" class="headerlink" title="Cursor 是否免费？"></a>Cursor 是否免费？</h1><p>Cursor 现在已经不再完全免费使用。目前为止，Cursor 的定价计划如下：</p>
+<table>
+<thead>
+<tr>
+<th align="left"></th>
+<th align="left">基础版</th>
+<th align="left">专业版</th>
+<th align="left">商用版</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">价格</td>
+<td align="left"><strong>免费</strong></td>
+<td align="left"><strong>$20 每月</strong></td>
+<td align="left"><strong>$40 每月</strong></td>
+</tr>
+<tr>
+<td align="left">GPT-3.5 使用限制</td>
+<td align="left">100次</td>
+<td align="left">无限</td>
+<td align="left">无限</td>
+</tr>
+<tr>
+<td align="left">GPT-4 使用限制</td>
+<td align="left">50次</td>
+<td align="left">500次</td>
+<td align="left">无限</td>
+</tr>
+</tbody></table>
+<p>如果只是想尝试一下 Cursor 的功能，基础版完全够用。但是，如果想在工作和学习中使用 Cursor，基础版的次数限制就显得捉襟见肘了。</p>
+<p>但是，Cursor 可以导入自己的API key，这样就能不受使用次数的限制，假如你是 ChatGPT Plus 用户，可以直接使用 GPT-4 功能，不需要二次付费。</p>
+<p>ChatGPT 账号注册及升级 Plus 可以参考这篇文章: url</p>
+<p>如果在账号注册、登录、下载软件的过程中遇到网络问题，可以参考这篇文章：url</p>
+<h1 id="Cursor-下载及使用说明"><a href="#Cursor-下载及使用说明" class="headerlink" title="Cursor 下载及使用说明"></a>Cursor 下载及使用说明</h1><p>首先需要到官网下载安装该软件，目前它能支持的有 Windows、macOS、Linux 等主流操作系统。 下载地址：<a href="https://link.zhihu.com/?target=https://www.cursor.so/">https://www.cursor.so/</a> </p>
+<p><img src="/OpenAI/ai-editor-cursor/img1.png"></p>
+<p>安装完成后，进行初始设置，然后单击[continue]（如果您不讲究，可以保留默认值）。</p>
+<p><img src="/OpenAI/ai-editor-cursor/img2.png"></p>
+<p>选择[help improve cursor]或[privacy mode]（如果不处理重要数据，选择[help improve cursor]就可以了）</p>
+<p><img src="/OpenAI/ai-editor-cursor/img3.png"></p>
+<p>使用前需要登陆，可以注册账号，或者直接使用 Github 等账号登录。</p>
+<p>安装完成之后，打开 Cursor，点击右上角的图标，打开或关闭侧边栏，开始和 AI 对话。</p>
+<p><img src="/OpenAI/ai-editor-cursor/img4.png"></p>
+<p>设置用中文进行回答：</p>
+<p><img src="/OpenAI/ai-editor-cursor/img6.png"></p>
+<p>界面设置为中文</p>
+<p><img src="/OpenAI/ai-editor-cursor/img7.png"></p>
+<p>来试试Cursor的代码能力</p>
+<p><img src="/OpenAI/ai-editor-cursor/img8.png"></p>
+<p>试着让它讲个笑话</p>
+<p><img src="/OpenAI/ai-editor-cursor/img9.png"></p>
+<p>最后来个视频展示，看看他的速度</p>
+<p><img src="/OpenAI/ai-editor-cursor/img10.gif"></p>
+<p>Cursor 目前是<strong>部分免费</strong>的，<strong>每个月有100次的限额</strong>，超出需要付费，可以导入自己的API key，这样就能不受使用次数的限制，假如你是 ChatGPT Plus 用户，可以直接使用 GPT-4 功能，不需要二次付费。</p>
+<h1 id="导入-API-key"><a href="#导入-API-key" class="headerlink" title="导入 API key"></a>导入 API key</h1><p>首先需要登录你的 OpenAI 账号，网址为<a target="_blank" rel="noopener" href="https://platform.openai.com/">https://platform.openai.com/</a>，ChatGPT 账号注册及升级 Plus 可以参考这篇文章: url</p>
+<p><img src="/OpenAI/ai-editor-cursor/img11.png"></p>
+<p>然后点击头像，有个 View API keys</p>
+<p><img src="/OpenAI/ai-editor-cursor/img12.png"></p>
+<p>点击Create new secret key生成 API key</p>
+<p><img src="/OpenAI/ai-editor-cursor/img13.png"></p>
+<p>随便输入一个名字，点击Create secret key，创建自己的API key</p>
+<p><img src="/OpenAI/ai-editor-cursor/img14.png"></p>
+<p>点击复制，再次点击Done完成。这样 API key 就复制到剪贴板了。请妥善保管好自己的 API key，避免被白嫖</p>
+<p>然后就可以将 API key 复制到 Cursor中了，开始享受 AI 生成代码吧！</p>
+<p><img src="/OpenAI/ai-editor-cursor/img15.png"></p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>Author: </span><span class="post-copyright-info"><a href="https://chatgptguidance.github.io">ChatGPT 指南</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>Link: </span><span class="post-copyright-info"><a href="https://chatgptguidance.github.io/OpenAI/ai-editor-cursor/">https://chatgptguidance.github.io/OpenAI/ai-editor-cursor/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>Copyright Notice: </span><span class="post-copyright-info">All articles in this blog are licensed under <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> unless stating additionally.</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/ChatGPT/">ChatGPT</a><a class="post-meta__tags" href="/tags/Code/">Code</a></div><div class="post_share"><div class="social-share" data-image="/OpenAI/ai-editor-cursor/cover.png" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="next-post pull-full"><a href="/%E5%85%B6%E4%BB%96/network-accelerate/" title="网络加速快速指南 一键访问ChatGPT OpenAI（下载及配置使用教程）"><img class="cover" src="/%E5%85%B6%E4%BB%96/network-accelerate/cover.png" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">Next</div><div class="next_info">网络加速快速指南 一键访问ChatGPT OpenAI（下载及配置使用教程）</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>Related Articles</span></div><div class="relatedPosts-list"><div><a href="/OpenAI/how-to-upgrade-chatgpt-plus/" title="如何购买ChatGPT？如何升级ChatGPT Plus？使用虚拟信用卡购买ChatGPT的指南"><img class="cover" src="/OpenAI/how-to-upgrade-chatgpt-plus/openai-cover.png" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2024-02-27</div><div class="title">如何购买ChatGPT？如何升级ChatGPT Plus？使用虚拟信用卡购买ChatGPT的指南</div></div></a></div><div><a href="/%E5%85%B6%E4%BB%96/network-accelerate/" title="网络加速快速指南 一键访问ChatGPT OpenAI（下载及配置使用教程）"><img class="cover" src="/%E5%85%B6%E4%BB%96/network-accelerate/cover.png" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2024-02-28</div><div class="title">网络加速快速指南 一键访问ChatGPT OpenAI（下载及配置使用教程）</div></div></a></div><div><a href="/OpenAI/openai-register/" title="ChatGPT账号免手机验证码注册教程（2024年2月更新）"><img class="cover" src="/OpenAI/openai-register/openai-cover.png" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2024-02-27</div><div class="title">ChatGPT账号免手机验证码注册教程（2024年2月更新）</div></div></a></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>Announcement</span></div><div class="announcement_content">AI论坛,OpenAI中文网，ChatGPT社区，ChatGPT技术论坛。这里有专业的开发人员和爱好者，致力于分享最新的技术进展和应用案例。</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>Contents</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%BD%A0%E5%8F%AF%E4%BB%A5%E7%94%A8-Cursor-%E5%81%9A%E7%9A%84-3-%E4%BB%B6%E4%BA%8B"><span class="toc-number">1.</span> <span class="toc-text">你可以用 Cursor 做的 3 件事</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%80%E3%80%81%E8%87%AA%E5%8A%A8%E4%BB%A3%E7%A0%81%E7%94%9F%E6%88%90%E5%92%8C%E7%BC%96%E8%BE%91"><span class="toc-number">1.1.</span> <span class="toc-text">一、自动代码生成和编辑</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BA%8C%E3%80%81%E8%81%8A%E5%A4%A9%E4%B8%AD%E7%9A%84%E9%97%AE%E7%AD%94"><span class="toc-number">1.2.</span> <span class="toc-text">二、聊天中的问答</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%89%E3%80%81%E8%87%AA%E5%8A%A8%E8%B0%83%E8%AF%95%E5%92%8C%E7%BA%A0%E9%94%99"><span class="toc-number">1.3.</span> <span class="toc-text">三、自动调试和纠错</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Cursor-%E6%98%AF%E5%90%A6%E5%85%8D%E8%B4%B9%EF%BC%9F"><span class="toc-number">2.</span> <span class="toc-text">Cursor 是否免费？</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Cursor-%E4%B8%8B%E8%BD%BD%E5%8F%8A%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E"><span class="toc-number">3.</span> <span class="toc-text">Cursor 下载及使用说明</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%AF%BC%E5%85%A5-API-key"><span class="toc-number">4.</span> <span class="toc-text">导入 API key</span></a></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>Recent Post</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/OpenAI/ai-editor-cursor/" title="Cursor：集成 ChatGPT 的代码编辑器 智能写代码神器 保姆级教程"><img src="/OpenAI/ai-editor-cursor/cover.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Cursor：集成 ChatGPT 的代码编辑器 智能写代码神器 保姆级教程"/></a><div class="content"><a class="title" href="/OpenAI/ai-editor-cursor/" title="Cursor：集成 ChatGPT 的代码编辑器 智能写代码神器 保姆级教程">Cursor：集成 ChatGPT 的代码编辑器 智能写代码神器 保姆级教程</a><time datetime="2024-02-29T14:48:02.000Z" title="Created 2024-02-29 22:48:02">2024-02-29</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/%E5%85%B6%E4%BB%96/network-accelerate/" title="网络加速快速指南 一键访问ChatGPT OpenAI（下载及配置使用教程）"><img src="/%E5%85%B6%E4%BB%96/network-accelerate/cover.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="网络加速快速指南 一键访问ChatGPT OpenAI（下载及配置使用教程）"/></a><div class="content"><a class="title" href="/%E5%85%B6%E4%BB%96/network-accelerate/" title="网络加速快速指南 一键访问ChatGPT OpenAI（下载及配置使用教程）">网络加速快速指南 一键访问ChatGPT OpenAI（下载及配置使用教程）</a><time datetime="2024-02-28T15:06:35.000Z" title="Created 2024-02-28 23:06:35">2024-02-28</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/OpenAI/openai-register/" title="ChatGPT账号免手机验证码注册教程（2024年2月更新）"><img src="/OpenAI/openai-register/openai-cover.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="ChatGPT账号免手机验证码注册教程（2024年2月更新）"/></a><div class="content"><a class="title" href="/OpenAI/openai-register/" title="ChatGPT账号免手机验证码注册教程（2024年2月更新）">ChatGPT账号免手机验证码注册教程（2024年2月更新）</a><time datetime="2024-02-27T12:09:58.000Z" title="Created 2024-02-27 20:09:58">2024-02-27</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/OpenAI/how-to-upgrade-chatgpt-plus/" title="如何购买ChatGPT？如何升级ChatGPT Plus？使用虚拟信用卡购买ChatGPT的指南"><img src="/OpenAI/how-to-upgrade-chatgpt-plus/openai-cover.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="如何购买ChatGPT？如何升级ChatGPT Plus？使用虚拟信用卡购买ChatGPT的指南"/></a><div class="content"><a class="title" href="/OpenAI/how-to-upgrade-chatgpt-plus/" title="如何购买ChatGPT？如何升级ChatGPT Plus？使用虚拟信用卡购买ChatGPT的指南">如何购买ChatGPT？如何升级ChatGPT Plus？使用虚拟信用卡购买ChatGPT的指南</a><time datetime="2024-02-27T11:04:58.000Z" title="Created 2024-02-27 19:04:58">2024-02-27</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2024 By ChatGPT 指南</div><div class="framework-info"><span>Framework </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>Theme </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="Read Mode"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="Toggle Between Light And Dark Mode"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="Toggle between Single-column and Double-column"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="Setting"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="Table Of Contents"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="Back To Top"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=4.13.0"></script><script src="/js/main.js?v=4.13.0"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.33/dist/fancybox/fancybox.umd.min.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">Search</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  Loading the Database</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="Search for Posts" type="text"/></div></div><hr/><div id="local-search-results"></div><div id="local-search-stats-wrap"></div></div></div><div id="search-mask"></div><script src="/js/search/local-search.js?v=4.13.0"></script></div></div></body></html>

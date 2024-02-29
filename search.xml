@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>Cursor：集成 ChatGPT 的代码编辑器 智能写代码神器 保姆级教程</title>
+      <link href="/OpenAI/ai-editor-cursor/"/>
+      <url>/OpenAI/ai-editor-cursor/</url>
+      
+        <content type="html"><![CDATA[<p>你听说过 <strong>Cursor</strong> 吗？</p><p><strong>Cursor</strong> 是一款 AI 代码编辑器，VSCode （Visual Studio Code）开发而来，可以自动执行与编程相关的任务。使用 <strong>Cursor</strong>，不仅可以自动生成代码，还可以在聊天中提问并自动纠正错误！它的亮点是通过 GPT-4 来辅助你编程，完成 AI 智能生成代码、修改 Bug、生成测试等操作。</p><h1 id="你可以用-Cursor-做的-3-件事"><a href="#你可以用-Cursor-做的-3-件事" class="headerlink" title="你可以用 Cursor 做的 3 件事"></a>你可以用 Cursor 做的 3 件事</h1><h2 id="一、自动代码生成和编辑"><a href="#一、自动代码生成和编辑" class="headerlink" title="一、自动代码生成和编辑"></a>一、自动代码生成和编辑</h2><p>Cursor 集成了 <strong>ChatGPT</strong>，<strong>可以自动生成和编辑</strong>编程代码。</p><p>因此 Cursor 可用于自动执行基本编码和重复性任务，使用户能够专注于更具创造性和挑战性的任务。</p><h2 id="二、聊天中的问答"><a href="#二、聊天中的问答" class="headerlink" title="二、聊天中的问答"></a>二、聊天中的问答</h2><p>Cursor 具有 <strong>AI 驱动的聊天功能</strong>，可以向它提出任何问题。</p><p>例如，问题包括：</p><ul><li>这段代码是什么意思？</li><li>如何使用 Cursor 中的这个功能？</li></ul><p>如果你好好利用 Cursor 的聊天功能，可以减少花在其他任务上的时间，让你的编程工作更有效率。</p><h2 id="三、自动调试和纠错"><a href="#三、自动调试和纠错" class="headerlink" title="三、自动调试和纠错"></a>三、自动调试和纠错</h2><p>Cursor 具有自动<strong>检测编程过程中发生的错误（错误），并提出更正建议</strong>的功能。</p><p>就人类而言，长时间编写代码时，错误是不可避免的。 但是，Cursor 每次都会检测错误，因此可以大大减少不必要的更正工作。</p><h1 id="Cursor-是否免费？"><a href="#Cursor-是否免费？" class="headerlink" title="Cursor 是否免费？"></a>Cursor 是否免费？</h1><p>Cursor 现在已经不再完全免费使用。目前为止，Cursor 的定价计划如下：</p><table><thead><tr><th align="left"></th><th align="left">基础版</th><th align="left">专业版</th><th align="left">商用版</th></tr></thead><tbody><tr><td align="left">价格</td><td align="left"><strong>免费</strong></td><td align="left"><strong>$20 每月</strong></td><td align="left"><strong>$40 每月</strong></td></tr><tr><td align="left">GPT-3.5 使用限制</td><td align="left">100次</td><td align="left">无限</td><td align="left">无限</td></tr><tr><td align="left">GPT-4 使用限制</td><td align="left">50次</td><td align="left">500次</td><td align="left">无限</td></tr></tbody></table><p>如果只是想尝试一下 Cursor 的功能，基础版完全够用。但是，如果想在工作和学习中使用 Cursor，基础版的次数限制就显得捉襟见肘了。</p><p>但是，Cursor 可以导入自己的API key，这样就能不受使用次数的限制，假如你是 ChatGPT Plus 用户，可以直接使用 GPT-4 功能，不需要二次付费。</p><p>ChatGPT 账号注册及升级 Plus 可以参考这篇文章: url</p><p>如果在账号注册、登录、下载软件的过程中遇到网络问题，可以参考这篇文章：url</p><h1 id="Cursor-下载及使用说明"><a href="#Cursor-下载及使用说明" class="headerlink" title="Cursor 下载及使用说明"></a>Cursor 下载及使用说明</h1><p>首先需要到官网下载安装该软件，目前它能支持的有 Windows、macOS、Linux 等主流操作系统。 下载地址：<a href="https://link.zhihu.com/?target=https://www.cursor.so/">https://www.cursor.so/</a> </p><p><img src="/OpenAI/ai-editor-cursor/img1.png"></p><p>安装完成后，进行初始设置，然后单击[continue]（如果您不讲究，可以保留默认值）。</p><p><img src="/OpenAI/ai-editor-cursor/img2.png"></p><p>选择[help improve cursor]或[privacy mode]（如果不处理重要数据，选择[help improve cursor]就可以了）</p><p><img src="/OpenAI/ai-editor-cursor/img3.png"></p><p>使用前需要登陆，可以注册账号，或者直接使用 Github 等账号登录。</p><p>安装完成之后，打开 Cursor，点击右上角的图标，打开或关闭侧边栏，开始和 AI 对话。</p><p><img src="/OpenAI/ai-editor-cursor/img4.png"></p><p>设置用中文进行回答：</p><p><img src="/OpenAI/ai-editor-cursor/img6.png"></p><p>界面设置为中文</p><p><img src="/OpenAI/ai-editor-cursor/img7.png"></p><p>来试试Cursor的代码能力</p><p><img src="/OpenAI/ai-editor-cursor/img8.png"></p><p>试着让它讲个笑话</p><p><img src="/OpenAI/ai-editor-cursor/img9.png"></p><p>最后来个视频展示，看看他的速度</p><p><img src="/OpenAI/ai-editor-cursor/img10.gif"></p><p>Cursor 目前是<strong>部分免费</strong>的，<strong>每个月有100次的限额</strong>，超出需要付费，可以导入自己的API key，这样就能不受使用次数的限制，假如你是 ChatGPT Plus 用户，可以直接使用 GPT-4 功能，不需要二次付费。</p><h1 id="导入-API-key"><a href="#导入-API-key" class="headerlink" title="导入 API key"></a>导入 API key</h1><p>首先需要登录你的 OpenAI 账号，网址为<a href="https://platform.openai.com/">https://platform.openai.com/</a>，ChatGPT 账号注册及升级 Plus 可以参考这篇文章: url</p><p><img src="/OpenAI/ai-editor-cursor/img11.png"></p><p>然后点击头像，有个 View API keys</p><p><img src="/OpenAI/ai-editor-cursor/img12.png"></p><p>点击Create new secret key生成 API key</p><p><img src="/OpenAI/ai-editor-cursor/img13.png"></p><p>随便输入一个名字，点击Create secret key，创建自己的API key</p><p><img src="/OpenAI/ai-editor-cursor/img14.png"></p><p>点击复制，再次点击Done完成。这样 API key 就复制到剪贴板了。请妥善保管好自己的 API key，避免被白嫖</p><p>然后就可以将 API key 复制到 Cursor中了，开始享受 AI 生成代码吧！</p><p><img src="/OpenAI/ai-editor-cursor/img15.png"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> OpenAI </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> ChatGPT </tag>
+            
+            <tag> Code </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>网络加速快速指南 一键访问ChatGPT OpenAI（下载及配置使用教程）</title>
       <link href="/%E5%85%B6%E4%BB%96/network-accelerate/"/>
       <url>/%E5%85%B6%E4%BB%96/network-accelerate/</url>
