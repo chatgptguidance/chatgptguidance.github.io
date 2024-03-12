@@ -1,0 +1,224 @@
+<!DOCTYPE html><html lang="zh-cn" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>Midjourney更新！样式参考功能解读及使用方法 瞬间拷贝任意风格 | ChatGPT 指南</title><meta name="author" content="ChatGPT 指南"><meta name="copyright" content="ChatGPT 指南"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="如有账号注册、网络加速等问题，请参考以下链接    ChatGPT | 【推荐】wildcard一键升级chatgpt4.0保姆级教程| 国内无需手机验证码ChatGPT注册|    WildCard虚拟卡 | 【推荐】wildcard虚拟信用卡平台详解，订阅ChatGPT等海外软件常见问题详及其解决方案|   网络加速 | 网络加速快速指南 一键访问ChatGPT OpenAI（下载及配置使用教">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Midjourney更新！样式参考功能解读及使用方法 瞬间拷贝任意风格">
+<meta property="og:url" content="https://chatgptguidance.github.io/Midjourney/midjourney-style-reference/index.html">
+<meta property="og:site_name" content="ChatGPT 指南">
+<meta property="og:description" content="如有账号注册、网络加速等问题，请参考以下链接    ChatGPT | 【推荐】wildcard一键升级chatgpt4.0保姆级教程| 国内无需手机验证码ChatGPT注册|    WildCard虚拟卡 | 【推荐】wildcard虚拟信用卡平台详解，订阅ChatGPT等海外软件常见问题详及其解决方案|   网络加速 | 网络加速快速指南 一键访问ChatGPT OpenAI（下载及配置使用教">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://chatgptguidance.github.io/Midjourney/midjourney-style-reference/cover.png">
+<meta property="article:published_time" content="2024-03-12T13:43:46.000Z">
+<meta property="article:modified_time" content="2024-03-12T14:11:16.580Z">
+<meta property="article:author" content="ChatGPT 指南">
+<meta property="article:tag" content="Midjourney">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://chatgptguidance.github.io/Midjourney/midjourney-style-reference/cover.png"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="https://chatgptguidance.github.io/Midjourney/midjourney-style-reference/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css?v=4.13.0"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.1/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.33/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":false,"top_n_per_article":1,"unescape":false,"languages":{"hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found"}},
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: 'Copy Successful',
+    error: 'Copy Error',
+    noSupport: 'Browser Not Supported'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: 'Just now',
+    min: 'minutes ago',
+    hour: 'hours ago',
+    day: 'days ago',
+    month: 'months ago'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid@4.11.1/dist/infinitegrid.min.js',
+    buttonText: 'Load More'
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'Midjourney更新！样式参考功能解读及使用方法 瞬间拷贝任意风格',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2024-03-12 22:11:16'
+}</script><script>(win=>{
+      win.saveToLocal = {
+        set: (key, value, ttl) => {
+          if (ttl === 0) return
+          const now = Date.now()
+          const expiry = now + ttl * 86400000
+          const item = {
+            value,
+            expiry
+          }
+          localStorage.setItem(key, JSON.stringify(item))
+        },
+      
+        get: key => {
+          const itemStr = localStorage.getItem(key)
+      
+          if (!itemStr) {
+            return undefined
+          }
+          const item = JSON.parse(itemStr)
+          const now = Date.now()
+      
+          if (now > item.expiry) {
+            localStorage.removeItem(key)
+            return undefined
+          }
+          return item.value
+        }
+      }
+    
+      win.getScript = (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        script.onerror = reject
+        script.onload = script.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          script.onload = script.onreadystatechange = null
+          resolve()
+        }
+
+        Object.keys(attr).forEach(key => {
+          script.setAttribute(key, attr[key])
+        })
+
+        document.head.appendChild(script)
+      })
+    
+      win.getCSS = (url, id = false) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onerror = reject
+        link.onload = link.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          link.onload = link.onreadystatechange = null
+          resolve()
+        }
+        document.head.appendChild(link)
+      })
+    
+      win.activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+        if (t === 'dark') activateDarkMode()
+        else if (t === 'light') activateLightMode()
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+      const detectApple = () => {
+        if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+          document.documentElement.classList.add('apple')
+        }
+      }
+      detectApple()
+    })(window)</script><meta name="generator" content="Hexo 7.1.1"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">5</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">5</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">3</div></a></div><hr class="custom-hr"/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('/Midjourney/midjourney-style-reference/top.jpg')"><nav id="nav"><span id="blog-info"><a href="/" title="ChatGPT 指南"><span class="site-name">ChatGPT 指南</span></a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search" href="javascript:void(0);"><i class="fas fa-search fa-fw"></i><span> Search</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">Midjourney更新！样式参考功能解读及使用方法 瞬间拷贝任意风格</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">Created</span><time class="post-meta-date-created" datetime="2024-03-12T13:43:46.000Z" title="Created 2024-03-12 21:43:46">2024-03-12</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">Updated</span><time class="post-meta-date-updated" datetime="2024-03-12T14:11:16.580Z" title="Updated 2024-03-12 22:11:16">2024-03-12</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/Midjourney/">Midjourney</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="Midjourney更新！样式参考功能解读及使用方法 瞬间拷贝任意风格"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">Post Views:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><p><strong>如有账号注册、网络加速等问题，请参考以下链接</strong></p>
+<table>
+<thead>
+<tr>
+<th align="left">ChatGPT</th>
+<th align="left">| <a href="/OpenAI/how-to-upgrade-chatgpt-plus/" title="如何购买ChatGPT？如何升级ChatGPT Plus？使用虚拟信用卡购买ChatGPT的指南">【推荐】wildcard一键升级chatgpt4.0保姆级教程</a>| <a href="/OpenAI/openai-register/" title="ChatGPT账号免手机验证码注册教程（2024年2月更新）">国内无需手机验证码ChatGPT注册</a>|</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong>WildCard虚拟卡</strong></td>
+<td align="left"><strong>|</strong> <a href="/OpenAI/how-to-upgrade-chatgpt-plus/" title="如何购买ChatGPT？如何升级ChatGPT Plus？使用虚拟信用卡购买ChatGPT的指南">【推荐】wildcard虚拟信用卡平台详解，订阅ChatGPT等海外软件常见问题详及其解决方案</a><strong>|</strong></td>
+</tr>
+<tr>
+<td align="left">网络加速</td>
+<td align="left"><strong>|</strong> <a href="/%E5%85%B6%E4%BB%96/network-accelerate/" title="网络加速快速指南 一键访问ChatGPT OpenAI（下载及配置使用教程）">网络加速快速指南 一键访问ChatGPT OpenAI（下载及配置使用教程）</a><strong>|</strong></td>
+</tr>
+</tbody></table>
+<p>二月份，<strong>Midjourney</strong> 迎来了 2024 年的第一个新版本，除了带来新的 <strong>Niji V6</strong> 以外，还更新了一些新的功能和命令，其中最重要的一个功能是样式参考。</p>
+<p><img src="/Midjourney/midjourney-style-reference/img1.png"></p>
+<p>这对于设计师来说是非常友好的一个功能，根据官方的解释，我们只需要上传一张图片，就可以识别到这张图片里面的所有的<strong>风格、构图、颜色以及光和阴影等一切的元素</strong>，帮助我们创造出一张全新的作品，换句话说就是不再需要去组合那些非常复杂的 <strong>prompt</strong> 关键词，考虑关键词组合的结构，只需要我们上传一张图片即可。</p>
+<h1 id="样式参考的基本使用方式"><a href="#样式参考的基本使用方式" class="headerlink" title="样式参考的基本使用方式"></a>样式参考的基本使用方式</h1><p>这个功能使用起来也非常的简单，就是在我们选择关键词的时候，加上 <strong>–sref</strong>，加上这张图片的地址链接即可，<strong>Midjourney</strong> 便会把参考图像作为“风格参考”，并尝试制作出与其风格或美学“匹配”的作品。</p>
+<p>接下来通过几个案例给各位讲清楚，这个功能具体怎么使用。</p>
+<p><img src="/Midjourney/midjourney-style-reference/img2.png"></p>
+<p>来到我们的个人服务器里，选择左侧的小加号，然后选择上传文件，这里提前准备好了一个素材，然后我想要按照这个风格再去绘制出一些其他的同样风格的人物。</p>
+<p><img src="/Midjourney/midjourney-style-reference/img3.png"></p>
+<p>上传这张图片以后，在对话框里面输入斜杠，选择 <strong>&#x2F;imagine</strong>，输入<strong>prompt</strong>关键词的指令，这里我们选择的关键词是 <strong>cute</strong>（可爱的）；接着选择一个基础的模型，这里选择的是 <strong>niji 6</strong>；然后输入 <strong>–sref</strong> ，将图片的地址复制到 <strong>–sref</strong> 后面（鼠标点击图片再进行拖拽即可）；最后进行发送。</p>
+<p><img src="/Midjourney/midjourney-style-reference/img4.png"></p>
+<p>然后我们就会得到一组全新的、同样风格的四个小女孩儿了，同样的纯色背景，同样的描边，脸部看向镜头的姿势也是非常相似的。通过使用样式参考功能，我们就不需要再上传那么复杂的关键词了，可以按照我们上传这张图片帮助我们生成作品。</p>
+<p>接下来还有其他的一些使用方式，比如说我现在想生成同样风格的小猫和小狗，这时可以选择一个复合关键词的组合，只需要输入花括号 <strong>{}</strong> ，在花括号中加上关键词，例如 <strong>{cat, dog}</strong> ，然后发送。例如：</p>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">prompt cute &#123;cat, dog&#125; --niji 6 --sref https://s.mj.run/jGxD8Mt2M8s</span><br></pre></td></tr></table></figure>
+
+<p><img src="/Midjourney/midjourney-style-reference/img5.png"></p>
+<p>生成完成后，我们来看一下，是同样风格的小猫和小狗。这便是 <strong>Midjourney</strong> 最新更新的样式参考的基础使用方式。</p>
+<h1 id="样式参考的优势"><a href="#样式参考的优势" class="headerlink" title="样式参考的优势"></a>样式参考的优势</h1><p>但是肯定会有同学有疑问了，样式参考和传统的以图生图（垫图）有什么区别？</p>
+<p>垫图，我们可以把它理解为融合，你上传的这张图片，<strong>Midjourney</strong> 会把它转译成几个它能准确识别到的关键词，再和你给出的关键词进行一个拼凑，然后根据关键词去生成图像。但是这有一些缺陷，<strong>Midjourney</strong> 识别到的关键词并不是非常准确的，因此生成的图片不可控。而样式参考这个功能，可以真正看作是以图生图，是真正的 <strong>1:1</strong> 进行还原。</p>
+<p>这里可以做一个简单的测试，选择同样的关键词 <strong>cute</strong>，同样的模型 <strong>niji 6</strong>，在不使用样式参考的情况下生成图片。</p>
+<p><img src="/Midjourney/midjourney-style-reference/img6.png"></p>
+<p>可以看到，生成的图片和我们上传的图片完全是两种风格，描边也不存在了。</p>
+<h1 id="样式参考的进阶使用方式"><a href="#样式参考的进阶使用方式" class="headerlink" title="样式参考的进阶使用方式"></a>样式参考的进阶使用方式</h1><h2 id="控制生成结果与原始图片的相似性"><a href="#控制生成结果与原始图片的相似性" class="headerlink" title="控制生成结果与原始图片的相似性"></a>控制生成结果与原始图片的相似性</h2><p>接下来还有一个知识点，<strong>Midjourney</strong> 给我们准备了另外的一个后缀关键词：**–sw**。它的主要作用是控制最后生成的结果与原始图片的相似性。</p>
+<p><img src="/Midjourney/midjourney-style-reference/img7.png"></p>
+<p>举个栗子，还是同样的先去上传一张图片，它类似于墙纸的涂鸦，包含是一些杂志被撕烂的效果。选择 <strong>&#x2F;imagine</strong> 指令，然后输入一个关键词，比如说 <strong>cat</strong> ，一只猫；然后 <strong>–sref</strong> ，加上图片地址，也就是说我希望按照这样的风格绘制一只猫，再选择发送。</p>
+<p>再加上 <strong>–sw</strong>，生成另几组图片进行对比。第二批图片保持前面的指令不变，加上 <strong>–sw 0</strong>；第三批图片加上 <strong>–sw 1000</strong>。</p>
+<p>来比较一下生成的三组图片，首先第一批生成的是没有增加 <strong>–sw</strong> 指令的结果，猫和墙纸的风格似乎是各占50%。</p>
+<p><img src="/Midjourney/midjourney-style-reference/img8.png"></p>
+<p>但是加上 <strong>–sw 0</strong>以后，几乎已经看不出来后面的墙纸的涂鸦了。</p>
+<p>当加上 <strong>–sw 1000</strong>以后，可以看到猫咪快被隐藏掉了，而我们上传的这张图片占据了整个生成结果的绝大部分。</p>
+<p><img src="/Midjourney/midjourney-style-reference/img9.png"></p>
+<p>以上就是 <strong>–sw</strong> 关键词的使用方式，换句话说就是数值越大，参考图对生成结果的影响越大，这个数值的区间是0~1000，这里做了个对比图， <strong>–sw</strong> 的关键词的数值在25、50、100、500、1000，不同的数值对于最后生成结果的影响。</p>
+<p><img src="/Midjourney/midjourney-style-reference/img10.png"></p>
+<h2 id="组合多种风格的图片"><a href="#组合多种风格的图片" class="headerlink" title="组合多种风格的图片"></a>组合多种风格的图片</h2><p>接下来是样式参考的最后一个知识点，根据官方给到的解释，我们最多可以上传三张图片，也就是可以组合三种不同的风格。这里我们以两张图片为例进行测试。</p>
+<p><img src="/Midjourney/midjourney-style-reference/img11.png"></p>
+<p>这里上传了一张中国风的图片进行测试。我们的想法是生成一个中国风的，包含这种墙纸被撕烂的风格的蝙蝠侠，来看一下会生成什么结果，会给我们带来什么惊喜。</p>
+<p>输入一个核心关键词，<strong>batman</strong>（蝙蝠侠），然后加上 <strong>–sref</strong> ，将参考图的地址链接复制到这个位置，如果想要上传第二张图片，只需要加上空格，再加上图片链接。</p>
+<p>选择发送，然后来看一下，我们得到了一种这种非常复古的蝙蝠侠效果。</p>
+<p><img src="/Midjourney/midjourney-style-reference/img12.png"></p>
+<p>这里也可以改变图片的权重来改变图片的风格，假如我们希望中国风可以更多一点，只需要在关键词链接后面加上空格，加上两个冒号，在加上权重，这里我们对第一张中国风图片加上权重5，对第二张墙纸涂鸦的效果图加上权重2，选择发送。</p>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">prompt batman --sref https://s.mi.run/kFx8kWDnRN ::5 https://s.mi.run/eofR8T3Ligw ::2</span><br></pre></td></tr></table></figure>
+
+<p>为了进行对比，将两个权重调换一下位置，生成另一组图片，看一下效果。通过两组图片的对比可以发现，第一组图片中国风效果更明显一些，第二组图片，墙上的这种破旧的报纸杂志被撕烂的效果更明显。</p>
+<p><img src="/Midjourney/midjourney-style-reference/img13.png"></p>
+<p><img src="/Midjourney/midjourney-style-reference/img14.png"></p>
+<h1 id="案例：线稿上色"><a href="#案例：线稿上色" class="headerlink" title="案例：线稿上色"></a>案例：线稿上色</h1><p>然接下是最后一个案例，线稿上色的案例。首先同样的我们先上传一张图片，然后我们先来看一下这张图片，左边是这种线稿的版本，右边是上色的版本。</p>
+<p><img src="/Midjourney/midjourney-style-reference/img15.png"></p>
+<p>接下来输入准备好的关键词，然后这里需要再加上一个新的关键词 <strong>–stylize 250</strong>；接着加上样式参考 <strong>–sref</strong> 和图片链接。</p>
+<p><img src="/Midjourney/midjourney-style-reference/img16.png"></p>
+<p>这组关键词的意思是希望按照我上传这张图片的样式，去绘制出一个全新的在太空漫游的一只小狗的样子。</p>
+<p><img src="/Midjourney/midjourney-style-reference/img17.png"></p>
+<p>来看下结果，左边是一个手绘，右边是根据左边这个手绘的风格去上色。对比一下手绘和上色的效果，完全是根据右侧线稿进行上色的，基本上还原，没有非常大的差异。</p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>Author: </span><span class="post-copyright-info"><a href="https://chatgptguidance.github.io">ChatGPT 指南</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>Link: </span><span class="post-copyright-info"><a href="https://chatgptguidance.github.io/Midjourney/midjourney-style-reference/">https://chatgptguidance.github.io/Midjourney/midjourney-style-reference/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>Copyright Notice: </span><span class="post-copyright-info">All articles in this blog are licensed under <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> unless stating additionally.</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/Midjourney/">Midjourney</a></div><div class="post_share"><div class="social-share" data-image="/Midjourney/midjourney-style-reference/cover.png" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="next-post pull-full"><a href="/OpenAI/ai-editor-cursor/" title="Cursor：集成 ChatGPT 的代码编辑器 智能写代码神器 保姆级教程"><img class="cover" src="/OpenAI/ai-editor-cursor/cover.png" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">Next</div><div class="next_info">Cursor：集成 ChatGPT 的代码编辑器 智能写代码神器 保姆级教程</div></div></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>Announcement</span></div><div class="announcement_content">AI论坛,OpenAI中文网，ChatGPT社区，ChatGPT技术论坛。这里有专业的开发人员和爱好者，致力于分享最新的技术进展和应用案例。</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>Contents</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%A0%B7%E5%BC%8F%E5%8F%82%E8%80%83%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8%E6%96%B9%E5%BC%8F"><span class="toc-number">1.</span> <span class="toc-text">样式参考的基本使用方式</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%A0%B7%E5%BC%8F%E5%8F%82%E8%80%83%E7%9A%84%E4%BC%98%E5%8A%BF"><span class="toc-number">2.</span> <span class="toc-text">样式参考的优势</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%A0%B7%E5%BC%8F%E5%8F%82%E8%80%83%E7%9A%84%E8%BF%9B%E9%98%B6%E4%BD%BF%E7%94%A8%E6%96%B9%E5%BC%8F"><span class="toc-number">3.</span> <span class="toc-text">样式参考的进阶使用方式</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%8E%A7%E5%88%B6%E7%94%9F%E6%88%90%E7%BB%93%E6%9E%9C%E4%B8%8E%E5%8E%9F%E5%A7%8B%E5%9B%BE%E7%89%87%E7%9A%84%E7%9B%B8%E4%BC%BC%E6%80%A7"><span class="toc-number">3.1.</span> <span class="toc-text">控制生成结果与原始图片的相似性</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%BB%84%E5%90%88%E5%A4%9A%E7%A7%8D%E9%A3%8E%E6%A0%BC%E7%9A%84%E5%9B%BE%E7%89%87"><span class="toc-number">3.2.</span> <span class="toc-text">组合多种风格的图片</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%A1%88%E4%BE%8B%EF%BC%9A%E7%BA%BF%E7%A8%BF%E4%B8%8A%E8%89%B2"><span class="toc-number">4.</span> <span class="toc-text">案例：线稿上色</span></a></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>Recent Post</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/Midjourney/midjourney-style-reference/" title="Midjourney更新！样式参考功能解读及使用方法 瞬间拷贝任意风格"><img src="/Midjourney/midjourney-style-reference/cover.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Midjourney更新！样式参考功能解读及使用方法 瞬间拷贝任意风格"/></a><div class="content"><a class="title" href="/Midjourney/midjourney-style-reference/" title="Midjourney更新！样式参考功能解读及使用方法 瞬间拷贝任意风格">Midjourney更新！样式参考功能解读及使用方法 瞬间拷贝任意风格</a><time datetime="2024-03-12T13:43:46.000Z" title="Created 2024-03-12 21:43:46">2024-03-12</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/OpenAI/ai-editor-cursor/" title="Cursor：集成 ChatGPT 的代码编辑器 智能写代码神器 保姆级教程"><img src="/OpenAI/ai-editor-cursor/cover.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Cursor：集成 ChatGPT 的代码编辑器 智能写代码神器 保姆级教程"/></a><div class="content"><a class="title" href="/OpenAI/ai-editor-cursor/" title="Cursor：集成 ChatGPT 的代码编辑器 智能写代码神器 保姆级教程">Cursor：集成 ChatGPT 的代码编辑器 智能写代码神器 保姆级教程</a><time datetime="2024-02-29T14:48:02.000Z" title="Created 2024-02-29 22:48:02">2024-02-29</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/%E5%85%B6%E4%BB%96/network-accelerate/" title="网络加速快速指南 一键访问ChatGPT OpenAI（下载及配置使用教程）"><img src="/%E5%85%B6%E4%BB%96/network-accelerate/cover.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="网络加速快速指南 一键访问ChatGPT OpenAI（下载及配置使用教程）"/></a><div class="content"><a class="title" href="/%E5%85%B6%E4%BB%96/network-accelerate/" title="网络加速快速指南 一键访问ChatGPT OpenAI（下载及配置使用教程）">网络加速快速指南 一键访问ChatGPT OpenAI（下载及配置使用教程）</a><time datetime="2024-02-28T15:06:35.000Z" title="Created 2024-02-28 23:06:35">2024-02-28</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/OpenAI/openai-register/" title="ChatGPT账号免手机验证码注册教程（2024年2月更新）"><img src="/OpenAI/openai-register/openai-cover.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="ChatGPT账号免手机验证码注册教程（2024年2月更新）"/></a><div class="content"><a class="title" href="/OpenAI/openai-register/" title="ChatGPT账号免手机验证码注册教程（2024年2月更新）">ChatGPT账号免手机验证码注册教程（2024年2月更新）</a><time datetime="2024-02-27T12:09:58.000Z" title="Created 2024-02-27 20:09:58">2024-02-27</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/OpenAI/how-to-upgrade-chatgpt-plus/" title="如何购买ChatGPT？如何升级ChatGPT Plus？使用虚拟信用卡购买ChatGPT的指南"><img src="/OpenAI/how-to-upgrade-chatgpt-plus/openai-cover.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="如何购买ChatGPT？如何升级ChatGPT Plus？使用虚拟信用卡购买ChatGPT的指南"/></a><div class="content"><a class="title" href="/OpenAI/how-to-upgrade-chatgpt-plus/" title="如何购买ChatGPT？如何升级ChatGPT Plus？使用虚拟信用卡购买ChatGPT的指南">如何购买ChatGPT？如何升级ChatGPT Plus？使用虚拟信用卡购买ChatGPT的指南</a><time datetime="2024-02-27T11:04:58.000Z" title="Created 2024-02-27 19:04:58">2024-02-27</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2024 By ChatGPT 指南</div><div class="framework-info"><span>Framework </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>Theme </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="Read Mode"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="Toggle Between Light And Dark Mode"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="Toggle between Single-column and Double-column"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="Setting"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="Table Of Contents"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="Back To Top"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=4.13.0"></script><script src="/js/main.js?v=4.13.0"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.33/dist/fancybox/fancybox.umd.min.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">Search</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  Loading the Database</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="Search for Posts" type="text"/></div></div><hr/><div id="local-search-results"></div><div id="local-search-stats-wrap"></div></div></div><div id="search-mask"></div><script src="/js/search/local-search.js?v=4.13.0"></script></div></div></body></html>
