@@ -1,0 +1,6 @@
+# hexo robots.txt
+User-agent: *
+Allow: /
+
+Sitemap: https://chatgptguidance.github.io/sitemap.xml
+Sitemap: https://chatgptguidance.github.io/baidusitemap.xml
